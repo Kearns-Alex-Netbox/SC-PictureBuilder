@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("AquaRevivalPictureBuilder")>
 <Assembly: AssemblyDescription("Builds a picture file that can be loaded into the AquaRevival control to replace.")>
-<Assembly: AssemblyCompany("Netbox SC")>
+<Assembly: AssemblyCompany("Aqua Revival")>
 <Assembly: AssemblyProduct("AquaRevivalPictureBuilder")>
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.0.5.0")>
+<Assembly: AssemblyFileVersion("1.0.5.0")>

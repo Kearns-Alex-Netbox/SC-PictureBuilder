@@ -28,9 +28,10 @@
 		</TaggedOutputs> -->
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015\InstallShield.targets"/>
+	<ItemGroup/>
 	<ItemGroup>
-		<ProjectReference Include="..\UpdateARCPictures\PictureBuilder.vbproj">
-			<Name>PictureBuilder</Name>
+		<ProjectReference Include="..\UpdateARCPictures\AquaRevivalPictureBuilder.vbproj">
+			<Name>AquaRevivalPictureBuilder</Name>
 			<Project>{FDB56A93-0C63-4F91-958D-3D9620195F3B}</Project>
 		</ProjectReference>
 	</ItemGroup>

@@ -26,6 +26,10 @@ Public Class Menu_Select
 		' create our table of system names
 		Systems_ListBox.Items.Clear
 
+		If Directory.Exists(APP_DATA_PATH) = False then
+			Directory.CreateDirectory(APP_DATA_PATH)
+		End If
+
 		' grab all of the folders and add them to the table
 		For each folder In Directory.GetDirectories(APP_DATA_PATH)
 			Systems_ListBox.Items.Add(Path.GetFileName(folder))

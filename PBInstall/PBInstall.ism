@@ -342,16 +342,26 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>AllOtherFiles</td><td>{78E5428E-3E96-479F-AC60-660D4A76DC64}</td><td>DEFAULT_IMAGES</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>AllOtherFiles1</td><td>{CA243D63-F4F3-4583-A5C8-AE9603B31BA4}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AquaRevivalPictureBuilder.Primary_output</td><td>{C4852788-AEAE-496C-B0F5-F7EA005616F9}</td><td>INSTALLDIR</td><td>8</td><td/><td>aquarevivalpicturebuilder.pr</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>BuildDiskImage.exe</td><td>{A0CE8E0E-79EA-478F-A38B-C7DE35EC34B5}</td><td>INSTALLDIR</td><td>8</td><td/><td>builddiskimage.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>FreeImage.dll</td><td>{A3AA254D-0864-4619-81C5-A08D68D870EE}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>PictureBuilder.Primary_output</td><td>{99A0C4AC-4E06-415E-B1B3-6375E6F44C1E}</td><td>INSTALLDIR</td><td>8</td><td/><td>picturebuilder.primary_outpu</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>FreeImage.dll1</td><td>{76648712-DD5D-46E6-BCF8-39F27D880D56}</td><td>INSTALLDIR</td><td>8</td><td/><td>freeimage.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>FreeImage.dll2</td><td>{6E3E79E5-0007-4BA1-A2B9-14B52E5CCB4E}</td><td>INSTALLDIR</td><td>8</td><td/><td>freeimage.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>PictureBuilder.Primary_output</td><td>{99A0C4AC-4E06-415E-B1B3-6375E6F44C1E}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>RemoveDrive.exe</td><td>{95C90362-718E-4E6B-BD52-0424D1BCFC07}</td><td>INSTALLDIR</td><td>8</td><td/><td>removedrive.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>jpg2tga.exe</td><td>{4EE71AE9-D512-4EC8-8A39-A1295644501B}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>magick.exe</td><td>{4A36501A-D5DB-486D-9B81-876468B1DB78}</td><td>INSTALLDIR</td><td>8</td><td/><td>magick.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mfc120u.dll</td><td>{BB198933-6804-4AC2-90D3-80F903C561B8}</td><td>INSTALLDIR</td><td>8</td><td/><td>mfc120u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcp120.dll</td><td>{CE1B9627-6CE3-4F40-A730-B8BE9E2B186C}</td><td>INSTALLDIR</td><td>8</td><td/><td>msvcp120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>msvcr120.dll</td><td>{193E8352-CF58-4C17-B679-C46CE96A75CA}</td><td>INSTALLDIR</td><td>8</td><td/><td>msvcr120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>jpg2tga.exe1</td><td>{A0C757E2-962C-4365-9419-427F71A08D64}</td><td>INSTALLDIR</td><td>8</td><td/><td>jpg2tga.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>magick.exe</td><td>{4A36501A-D5DB-486D-9B81-876468B1DB78}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>magick.exe1</td><td>{DC205468-4A03-4CC1-A3A0-935B45354CB7}</td><td>INSTALLDIR</td><td>8</td><td/><td>magick.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc120u.dll</td><td>{BB198933-6804-4AC2-90D3-80F903C561B8}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mfc120u.dll1</td><td>{04692E88-1B15-4754-AD39-60BD47649BD6}</td><td>INSTALLDIR</td><td>8</td><td/><td>mfc120u.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp120.dll</td><td>{CE1B9627-6CE3-4F40-A730-B8BE9E2B186C}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcp120.dll1</td><td>{9D91B148-A1D3-468A-BD02-6604F6068BBA}</td><td>INSTALLDIR</td><td>8</td><td/><td>msvcp120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr120.dll</td><td>{193E8352-CF58-4C17-B679-C46CE96A75CA}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>msvcr120.dll1</td><td>{58767B3E-59DB-4E68-8CE7-FB8AED4B0637}</td><td>INSTALLDIR</td><td>8</td><td/><td>msvcr120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>tgatoc.exe</td><td>{74574820-9D91-4681-AD0B-C3CB091D6929}</td><td>INSTALLDIR</td><td>8</td><td/><td>tgatoc.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>vcomp120.dll</td><td>{41C1738D-FBD7-43C4-A344-D0A1C6AD7297}</td><td>INSTALLDIR</td><td>8</td><td/><td>vcomp120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>vcomp120.dll</td><td>{41C1738D-FBD7-43C4-A344-D0A1C6AD7297}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>vcomp120.dll1</td><td>{C10E1440-DFB2-4265-9D54-93D4BEC52D4F}</td><td>INSTALLDIR</td><td>8</td><td/><td>vcomp120.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>wimadll.dll</td><td>{8A4BC0C8-3D70-40CD-BD1E-8646F41A28B1}</td><td>INSTALLDIR</td><td>8</td><td/><td>wimadll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -1022,16 +1032,26 @@
 		<row><td>DEFAULT_IMAGES</td><td>AllOtherFiles</td></row>
 		<row><td>INSTALLDIR</td><td>AllOtherFiles</td></row>
 		<row><td>INSTALLDIR</td><td>AllOtherFiles1</td></row>
+		<row><td>INSTALLDIR</td><td>AquaRevivalPictureBuilder.Primary_output</td></row>
 		<row><td>INSTALLDIR</td><td>BuildDiskImage.exe</td></row>
 		<row><td>INSTALLDIR</td><td>FreeImage.dll</td></row>
+		<row><td>INSTALLDIR</td><td>FreeImage.dll1</td></row>
+		<row><td>INSTALLDIR</td><td>FreeImage.dll2</td></row>
 		<row><td>INSTALLDIR</td><td>PictureBuilder.Primary_output</td></row>
+		<row><td>INSTALLDIR</td><td>RemoveDrive.exe</td></row>
 		<row><td>INSTALLDIR</td><td>jpg2tga.exe</td></row>
+		<row><td>INSTALLDIR</td><td>jpg2tga.exe1</td></row>
 		<row><td>INSTALLDIR</td><td>magick.exe</td></row>
+		<row><td>INSTALLDIR</td><td>magick.exe1</td></row>
 		<row><td>INSTALLDIR</td><td>mfc120u.dll</td></row>
+		<row><td>INSTALLDIR</td><td>mfc120u.dll1</td></row>
 		<row><td>INSTALLDIR</td><td>msvcp120.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msvcp120.dll1</td></row>
 		<row><td>INSTALLDIR</td><td>msvcr120.dll</td></row>
+		<row><td>INSTALLDIR</td><td>msvcr120.dll1</td></row>
 		<row><td>INSTALLDIR</td><td>tgatoc.exe</td></row>
 		<row><td>INSTALLDIR</td><td>vcomp120.dll</td></row>
+		<row><td>INSTALLDIR</td><td>vcomp120.dll1</td></row>
 		<row><td>INSTALLDIR</td><td>wimadll.dll</td></row>
 	</table>
 
@@ -1843,16 +1863,26 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>PictureBuilder_Files</td><td>AllOtherFiles</td></row>
 		<row><td>PictureBuilder_Files</td><td>AllOtherFiles1</td></row>
+		<row><td>PictureBuilder_Files</td><td>AquaRevivalPictureBuilder.Primary_output</td></row>
 		<row><td>PictureBuilder_Files</td><td>BuildDiskImage.exe</td></row>
 		<row><td>PictureBuilder_Files</td><td>FreeImage.dll</td></row>
+		<row><td>PictureBuilder_Files</td><td>FreeImage.dll1</td></row>
+		<row><td>PictureBuilder_Files</td><td>FreeImage.dll2</td></row>
 		<row><td>PictureBuilder_Files</td><td>PictureBuilder.Primary_output</td></row>
+		<row><td>PictureBuilder_Files</td><td>RemoveDrive.exe</td></row>
 		<row><td>PictureBuilder_Files</td><td>jpg2tga.exe</td></row>
+		<row><td>PictureBuilder_Files</td><td>jpg2tga.exe1</td></row>
 		<row><td>PictureBuilder_Files</td><td>magick.exe</td></row>
+		<row><td>PictureBuilder_Files</td><td>magick.exe1</td></row>
 		<row><td>PictureBuilder_Files</td><td>mfc120u.dll</td></row>
+		<row><td>PictureBuilder_Files</td><td>mfc120u.dll1</td></row>
 		<row><td>PictureBuilder_Files</td><td>msvcp120.dll</td></row>
+		<row><td>PictureBuilder_Files</td><td>msvcp120.dll1</td></row>
 		<row><td>PictureBuilder_Files</td><td>msvcr120.dll</td></row>
+		<row><td>PictureBuilder_Files</td><td>msvcr120.dll1</td></row>
 		<row><td>PictureBuilder_Files</td><td>tgatoc.exe</td></row>
 		<row><td>PictureBuilder_Files</td><td>vcomp120.dll</td></row>
+		<row><td>PictureBuilder_Files</td><td>vcomp120.dll1</td></row>
 		<row><td>PictureBuilder_Files</td><td>wimadll.dll</td></row>
 	</table>
 
@@ -1868,16 +1898,20 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
+		<row><td>aquarevivalpicturebuilder.pr</td><td>AquaRevivalPictureBuilder.Primary_output</td><td>AquaRevivalPictureBuilder.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;AquaRevivalPictureBuilder&gt;|Built</td><td>3</td><td/></row>
 		<row><td>builddiskimage.exe</td><td>BuildDiskImage.exe</td><td>BUILDD~1.EXE|BuildDiskImage.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\BuildDiskImage.exe</td><td>1</td><td/></row>
 		<row><td>cleaner.jpg</td><td>AllOtherFiles</td><td>Cleaner.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\Cleaner.jpg</td><td>1</td><td/></row>
-		<row><td>magick.exe</td><td>magick.exe</td><td>magick.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\magick.exe</td><td>1</td><td/></row>
-		<row><td>mfc120u.dll</td><td>mfc120u.dll</td><td>mfc120u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\mfc120u.dll</td><td>1</td><td/></row>
-		<row><td>msvcp120.dll</td><td>msvcp120.dll</td><td>msvcp120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\msvcp120.dll</td><td>1</td><td/></row>
-		<row><td>msvcr120.dll</td><td>msvcr120.dll</td><td>msvcr120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\msvcr120.dll</td><td>1</td><td/></row>
+		<row><td>freeimage.dll</td><td>FreeImage.dll1</td><td>FREEIM~1.DLL|FreeImage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\FreeImage.dll</td><td>1</td><td/></row>
+		<row><td>freeimage.dll1</td><td>FreeImage.dll2</td><td>FREEIM~1.DLL|FreeImage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\FreeImage.dll</td><td>1</td><td/></row>
+		<row><td>jpg2tga.exe</td><td>jpg2tga.exe1</td><td>jpg2tga.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\jpg2tga.exe</td><td>1</td><td/></row>
+		<row><td>magick.exe</td><td>magick.exe1</td><td>magick.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\magick.exe</td><td>1</td><td/></row>
+		<row><td>mfc120u.dll</td><td>mfc120u.dll1</td><td>mfc120u.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\mfc120u.dll</td><td>1</td><td/></row>
+		<row><td>msvcp120.dll</td><td>msvcp120.dll1</td><td>msvcp120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\msvcp120.dll</td><td>1</td><td/></row>
+		<row><td>msvcr120.dll</td><td>msvcr120.dll1</td><td>msvcr120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\msvcr120.dll</td><td>1</td><td/></row>
 		<row><td>perlite.jpg</td><td>AllOtherFiles</td><td>Perlite.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\Perlite.jpg</td><td>1</td><td/></row>
-		<row><td>picturebuilder.primary_outpu</td><td>PictureBuilder.Primary_output</td><td>PictureBuilder.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;PictureBuilder&gt;|Built</td><td>3</td><td/></row>
-		<row><td>policy.xml</td><td>AllOtherFiles1</td><td>policy.xml</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\policy.xml</td><td>1</td><td/></row>
+		<row><td>removedrive.exe</td><td>RemoveDrive.exe</td><td>REMOVE~1.EXE|RemoveDrive.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\RemoveDrive.exe</td><td>1</td><td/></row>
 		<row><td>sflashbase.bin</td><td>AllOtherFiles1</td><td>SFLASH~1.BIN|sflashbase.bin</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\sflashbase.bin</td><td>1</td><td/></row>
+		<row><td>splash.jpg</td><td>AllOtherFiles</td><td>Splash.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\Splash.jpg</td><td>1</td><td/></row>
 		<row><td>tgatoc.exe</td><td>tgatoc.exe</td><td>tgatoc.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\tgatoc.exe</td><td>1</td><td/></row>
 		<row><td>v3valve.jpg</td><td>AllOtherFiles</td><td>V3Valve.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\V3Valve.jpg</td><td>1</td><td/></row>
 		<row><td>v4valve.jpg</td><td>AllOtherFiles</td><td>V4Valve.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\V4Valve.jpg</td><td>1</td><td/></row>
@@ -1888,7 +1922,7 @@
 		<row><td>v7valve.jpg</td><td>AllOtherFiles</td><td>V7Valve.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\V7Valve.jpg</td><td>1</td><td/></row>
 		<row><td>v8valve.jpg</td><td>AllOtherFiles</td><td>V8Valve.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\V8Valve.jpg</td><td>1</td><td/></row>
 		<row><td>v9valve.jpg</td><td>AllOtherFiles</td><td>V9Valve.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\default_images\V9Valve.jpg</td><td>1</td><td/></row>
-		<row><td>vcomp120.dll</td><td>vcomp120.dll</td><td>vcomp120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\vcomp120.dll</td><td>1</td><td/></row>
+		<row><td>vcomp120.dll</td><td>vcomp120.dll1</td><td>vcomp120.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\vcomp120.dll</td><td>1</td><td/></row>
 		<row><td>wimadll.dll</td><td>wimadll.dll</td><td>wimadll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\wimadll.dll</td><td>1</td><td/></row>
 	</table>
 
@@ -2035,16 +2069,26 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>AllOtherFiles</td><td/><td/><td>_9AC39ABF_BD28_4FE8_B895_ED7ABFB3D3FB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>AllOtherFiles1</td><td/><td/><td>_2E120A60_5D44_4175_82FB_93FF5A0ED0D8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AquaRevivalPictureBuilder.Primary_output</td><td/><td/><td>_F2DDD052_2AC6_4279_9C61_D841D05FD9C5_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>BuildDiskImage.exe</td><td/><td/><td>_9974D1C8_B11A_4B96_BEE4_AF74CE93C1F5_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>FreeImage.dll</td><td/><td/><td>_5B6E4C03_F4D4_43B3_9978_73CE2F5115AF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>FreeImage.dll1</td><td/><td/><td>_9445EF2C_0B9F_4433_941D_130A07A306B9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>FreeImage.dll2</td><td/><td/><td>_64C067FF_BF70_4601_B68D_4CBB499A2B7E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>PictureBuilder.Primary_output</td><td/><td/><td>_4DB52371_710C_4898_9EBC_A592C27E9307_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>RemoveDrive.exe</td><td/><td/><td>_34F814E6_E5BD_45E9_8B4F_706FB719D13D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>jpg2tga.exe</td><td/><td/><td>_3DAC41CD_5A0B_4E15_BF60_7B487E890866_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>jpg2tga.exe1</td><td/><td/><td>_4C0E288D_2D33_4CE3_98A5_11A9ED44EB2F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>magick.exe</td><td/><td/><td>_B2D66A96_422A_4BE2_8C8D_3A67A7E572DD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>magick.exe1</td><td/><td/><td>_DE1DC2E7_3138_4BB5_83A6_625C6D5E2E8A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>mfc120u.dll</td><td/><td/><td>_081EDB46_3516_42F2_AAB7_B21C1B6456A6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mfc120u.dll1</td><td/><td/><td>_C17975F1_DF73_4266_95AD_2BA73BCB09D4_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>msvcp120.dll</td><td/><td/><td>_6D460D32_1D3E_42AB_8842_29AF27244050_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcp120.dll1</td><td/><td/><td>_ED61698F_8692_4E0B_9A21_B2DD99BF6BF8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>msvcr120.dll</td><td/><td/><td>_085033DD_F4C1_46F5_BBFC_38FA69374D52_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>msvcr120.dll1</td><td/><td/><td>_D3A1420F_9CC5_4420_9C59_F2017CFF0B66_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>tgatoc.exe</td><td/><td/><td>_AB7CEA07_CF4E_445B_91CA_129BD36A2E1E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>vcomp120.dll</td><td/><td/><td>_B65B5E0B_B46A_4679_8404_B9CFAB88AA55_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>vcomp120.dll1</td><td/><td/><td>_13B47488_F311_4784_92D5_A60F693C5835_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>wimadll.dll</td><td/><td/><td>_AB143FED_9ECA_4694_87EC_471366CDF0C2_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -2348,6 +2392,7 @@
 		<col def="S255">Value</col>
 		<col def="S255">TestValue</col>
 		<col def="i4">Type</col>
+		<row><td>AquaRevivalPictureBuilder</td><td>UpdateARCPictures\AquaRevivalPictureBuilder.vbproj</td><td/><td>2</td></row>
 		<row><td>CommonFilesFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISPROJECTDIR</td><td/><td/><td>1</td></row>
 		<row><td>ISProductFolder</td><td/><td/><td>1</td></row>
@@ -3491,6 +3536,10 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch tgatoc.exe</td><td>0</td><td/><td>1663516685</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>PictureBuilder</td><td>0</td><td/><td>1663529005</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>LAUNCH~1.EXE|Launch magick.exe</td><td>0</td><td/><td>2066190600</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>LAUNCH~1.EXE|Launch RemoveDrive.exe</td><td>0</td><td/><td>329734438</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>Picture Builder</td><td>0</td><td/><td>329753126</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME8</td><td>1033</td><td>LAUNCH~1.EXE|Launch jpg2tga.exe</td><td>0</td><td/><td>329757544</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME9</td><td>1033</td><td>LAUNCH~1.EXE|Launch magick.exe</td><td>0</td><td/><td>-207135507</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>2091065377</td></row>
@@ -3893,7 +3942,7 @@
 		<col def="V0">Data</col>
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
-		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;VSSolutionFolder&gt;\UpdateARCPictures\Resources\AquaRevivalIcon.ico</td><td>0</td></row>
+		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProjectFolder&gt;\AquaRevivalIcon.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4006,6 +4055,7 @@
 		<col key="yes" def="s72">Property</col>
 		<col def="S0">Value</col>
 		<row><td>ActiveLanguage</td><td>1033</td></row>
+		<row><td>ApplicationType</td><td/></row>
 		<row><td>Comments</td><td/></row>
 		<row><td>CurrentMedia</td><td dt:dt="bin.base64" md5="4b00b795ba16b41c1637c4298a4cc781">
 UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
@@ -4394,7 +4444,7 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<row><td>ProductID</td><td>none</td><td/></row>
 		<row><td>ProductLanguage</td><td>1033</td><td/></row>
 		<row><td>ProductName</td><td>PictureBuilder</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>1.04.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4469,7 +4519,7 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<col def="i2">InstallMode</col>
 		<row><td>FileKey1</td><td>BuildDiskImage.exe</td><td/><td>aquare_1_aquarevival</td><td>2</td></row>
 		<row><td>FileKey2</td><td>BuildDiskImage.exe</td><td/><td>pictur_1_picturebuilder</td><td>2</td></row>
-		<row><td>_Built</td><td>PictureBuilder.Primary_output</td><td/><td>pictur_1_picturebuilder</td><td>2</td></row>
+		<row><td>_Built</td><td>AquaRevivalPictureBuilder.Primary_output</td><td/><td>pictur_1_picturebuilder</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4555,7 +4605,7 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>pictur_1_picturebuilder</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>PictureBuilder.Primary_output</td><td>PictureBuilder_Files</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>pictur_1_picturebuilder</td><td>##IDS_SHORTCUT_DISPLAY_NAME7##</td><td>AquaRevivalPictureBuilder.Primary_output</td><td>PictureBuilder_Files</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
