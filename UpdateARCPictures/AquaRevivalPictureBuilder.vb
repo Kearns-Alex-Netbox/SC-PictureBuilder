@@ -22,11 +22,11 @@ Public Class AquaRevivalPictureBuilder
 
 	Private Sub AquaRevivalPictureBuilder_Load() Handles MyBase.Load
 		' initilize our arrays
-		DescriptionArray = New Label() {Description0, Description1, Description2, Description3, Description4, Description5, Description6, Description7, Description8, Description9, Description10}
-		DefaultPicArray = New PictureBox() {Default0, Default1, Default2, Default3, Default4, Default5, Default6, Default7, Default8, Default9, Default10}
-		NewPicArray = New PictureBox() {New0, New1, New2, New3, New4, New5, New6, New7, New8, New9, New10}
-		SelectButtonArray = New Button() {Select0, Select1, Select2, Select3, Select4, Select5, Select6, Select7, Select8, Select9, Select10}
-		RemoveButtonArray = New Button() {Remove0, Remove1, Remove2, Remove3, Remove4, Remove5, Remove6, Remove7, Remove8, Remove9, Remove10}
+		DescriptionArray = New Label() {Description0, Description1, Description2, Description3, Description4, Description5, Description6, Description7, Description8, Description9, Description10, Description11}
+		DefaultPicArray = New PictureBox() {Default0, Default1, Default2, Default3, Default4, Default5, Default6, Default7, Default8, Default9, Default10, Default11}
+		NewPicArray = New PictureBox() {New0, New1, New2, New3, New4, New5, New6, New7, New8, New9, New10, New11}
+		SelectButtonArray = New Button() {Select0, Select1, Select2, Select3, Select4, Select5, Select6, Select7, Select8, Select9, Select10, Select11}
+		RemoveButtonArray = New Button() {Remove0, Remove1, Remove2, Remove3, Remove4, Remove5, Remove6, Remove7, Remove8, Remove9, Remove10, Remove11}
 	End Sub
 
 	Private Sub Init() Handles Me.Shown
@@ -67,13 +67,13 @@ Public Class AquaRevivalPictureBuilder
 
 			' check that we have the default image
 			If File.Exists(JPG_DEFAULT_FOLDER & JPG_NAMES(index) & JPG_EXE) = False Then
+				
 				Dim errorMessage As String =
-"Unable to find the default image at:" & vbNewLine &
+ERROR_IMAGE_LOCATION1 & vbNewLine &
 vbNewLine &
 JPG_DEFAULT_FOLDER & JPG_NAMES(index) & JPG_EXE & vbNewLine &
 vbNewLine &
-"Please check that the folder and files are in this location. If not, please uninstal and " &
-"re-install the program. If this issue continues, please contact technical support."
+ERROR_IMAGE_LOCATION2
 
 				' display our error message
 				Dim doCustomMessageBox As New HelpMessageBox(errorMessage, False)
@@ -95,7 +95,7 @@ vbNewLine &
 			Dim g As Graphics = Graphics.FromImage(resized)
 
 			' draw our source image in our constraints
-			g.DrawImage(img, 0, 0, resized.Width, resized.Height)
+			g.DrawImage(img, PICTUREBOX_TOPLEFT_X, PICTUREBOX_TOPLEFT_Y, resized.Width, resized.Height)
 
 			' set the image to our picture box
 			DefaultPicArray(index).Image = resized
@@ -121,7 +121,7 @@ vbNewLine &
 			g = Graphics.FromImage(resized)
 
 			' draw our source image in our constraints
-			g.DrawImage(img, 0, 0, resized.Width, resized.Height)
+			g.DrawImage(img, PICTUREBOX_TOPLEFT_X, PICTUREBOX_TOPLEFT_Y, resized.Width, resized.Height)
 
 			' set the image to our picture box
 			NewPicArray(index).Image = resized
@@ -135,7 +135,7 @@ vbNewLine &
 	Private Sub Selected(sender As Object, e As EventArgs)
 		' update our public image index
 		' each button is named "select##". by getting the number, it will point to the correct array location
-		Image_Index = (sender.Name.Substring("Select".Length))
+		Image_Index = (sender.Name.Substring(LEN_SELECT))
 
 		' open our crop image tool
 		Dim DoCropImage As New CropImage(WorkingPath)
@@ -147,14 +147,14 @@ vbNewLine &
 
 	Private Sub Remove(sender As Object, e As EventArgs)
 		' each button is named "remove##". by getting the number, it will point to the correct array location
-		Dim number As Integer = (sender.Name.Substring("Remove".Length))
+		Dim number As Integer = (sender.Name.Substring(LEN_REMOVE))
 
 		' confirm with the user that they want to delete all of the current images
-		Dim doCustomMessageBox As New CustomMessageBox("Remove " & IMAGE_TITLES(number) & "'s new image?", "No", "Yes")
+		Dim doCustomMessageBox As New CustomMessageBox(STR_REMOVE & " " & IMAGE_TITLES(number) & REMOVE_NEW_IMAGE, STR_NO, STR_YES)
 		doCustomMessageBox.ShowDialog()
 
 		' check to see if we canceled our action
-		If doCustomMessageBox.DialogResult = 1 Then
+		If doCustomMessageBox.DialogResult = CustomDialogResults.CANCELED Then
 			Return
 		End If
 
@@ -163,7 +163,7 @@ vbNewLine &
 			' delete and reload our images
 			File.Delete(WorkingPath & JPG_UPDATE_FOLDER & "\" & JPG_NAMES(number) & JPG_EXE)
 		Catch ex As Exception
-			doCustomMessageBox = New CustomMessageBox(ex.Message, "OK")
+			doCustomMessageBox = New CustomMessageBox(ex.Message, STR_OK)
 			doCustomMessageBox.ShowDialog()
 			Return
 		End Try
@@ -177,11 +177,11 @@ vbNewLine &
 
 	Private Sub RemoveAll_Button_Click() Handles RemoveAll_Button.Click
 		' confirm with the user that they want to delete all of the new images
-		Dim doCustomMessageBox As New CustomMessageBox("Remove all of your new images?", "No", "Yes")
+		Dim doCustomMessageBox As New CustomMessageBox(REMOVE_ALL_IMAGES, STR_NO, STR_YES)
 		doCustomMessageBox.ShowDialog()
 
 		' check to see if we canceled our action
-		If doCustomMessageBox.DialogResult = 1 Then
+		If doCustomMessageBox.DialogResult = CustomDialogResults.CANCELED Then
 			Return
 		End If
 
@@ -192,7 +192,7 @@ vbNewLine &
 				File.Delete(deleteFile)
 			Next
 		Catch ex As Exception
-			doCustomMessageBox = New CustomMessageBox(ex.Message, "OK")
+			doCustomMessageBox = New CustomMessageBox(ex.Message, STR_OK)
 			doCustomMessageBox.ShowDialog()
 			Return
 		End Try
@@ -206,11 +206,11 @@ vbNewLine &
 		ImageListString = ""
 		Dim message As String = ""
 
-		Dim doCustomMessageBox As New CustomMessageBox("Please insert your USB.", "Cancel", "Proceed")
+		Dim doCustomMessageBox As New CustomMessageBox(INSERT_USB, STR_CANCEL, STR_PROCEED)
 		doCustomMessageBox.ShowDialog()
 
 		' check to see if we canceled our action
-		If doCustomMessageBox.DialogResult = 1 Then
+		If doCustomMessageBox.DialogResult = CustomDialogResults.CANCELED Then
 			Return
 		End If
 
@@ -227,7 +227,7 @@ vbNewLine &
 				File.Delete(deleteFile)
 			Next
 		Catch ex As Exception
-			doCustomMessageBox = New CustomMessageBox(ex.Message, "OK")
+			doCustomMessageBox = New CustomMessageBox(ex.Message, STR_OK)
 			doCustomMessageBox.ShowDialog()
 			Return
 		End Try
@@ -235,7 +235,7 @@ vbNewLine &
 		' run the utility to convert from JPG to TGA format
 		If ConvertJPGtoTGA() = False Then
 			Cursor.Current = Cursors.Default
-			message = "One or more JPG files were not converted to TGA."
+			message = ""
 
 			dim docustom as new HelpMessageBox(message)
 			docustom.ShowDialog
@@ -246,7 +246,7 @@ vbNewLine &
 		If ConvertTGAtoBIN() = False Then
 			Cursor.Current = Cursors.Default
 
-			message = "One or more TGA files were not converted to BIN."
+			message = ERROR_BIN_CONVERSION
 
 			dim docustom as new HelpMessageBox(message)
 			docustom.ShowDialog
@@ -256,7 +256,7 @@ vbNewLine &
 		' create the ImageList text file
 		If CreateImageList() = False Then
 			Cursor.Current = Cursors.Default
-			message = "Could not create imagelist.txt."
+			message = ERROR_IMAGE_TEXT
 
 			dim docustom as new HelpMessageBox(message)
 			docustom.ShowDialog
@@ -266,7 +266,7 @@ vbNewLine &
 		' run the utility to convert into the disk image.
 		If CreateDiskImage() = False Then
 			Cursor.Current = Cursors.Default
-			message = "Could not create disk image."
+			message = ERROR_DISK_IMAGE
 
 			dim docustom as new HelpMessageBox(message)
 			docustom.ShowDialog
@@ -285,7 +285,7 @@ vbNewLine &
 
 		if EjectDrive(usersUSBpath.Substring(0, 2)) = false Then
 			Cursor.Current = Cursors.Default
-			message = "Could not safely eject USB under program control. Please safely eject manually."
+			message = ERROR_EJECT_USB
 
 			dim docustom as new HelpMessageBox(message)
 			docustom.ShowDialog
@@ -315,9 +315,9 @@ vbNewLine &
 			WriteToEventLog(message, EventLogEntryType.Error)
 			retval = False
 		Else
-			dim message As String = "The 'USB Mass Storage Device' device can now be safely removed from the computer."
+			dim message As String = SAFE_TO_REMOVE
 
-			dim docustom as new CustomMessageBox(message, "OK")
+			dim docustom as new CustomMessageBox(message, STR_OK)
 			docustom.ShowDialog
 		End If
 
@@ -461,8 +461,8 @@ vbNewLine &
 	End Sub
 
 	Public Function WriteToEventLog(ByVal message As String, Optional eventType As EventLogEntryType = EventLogEntryType.Information)
-		Dim appName As String = "Aqua Revival Picture Builder"
-		Dim logName = "Application"
+		Dim appName As String = APP_NAME
+		Dim logName = LOG_NAME
 
 		Dim objEventLog As New EventLog()
 

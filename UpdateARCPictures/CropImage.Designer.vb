@@ -98,7 +98,7 @@ Partial Class CropImage
 		Me.Description_Label.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
 		Me.Description_Label.Location = New System.Drawing.Point(707, 9)
 		Me.Description_Label.Name = "Description_Label"
-		Me.Description_Label.Size = New System.Drawing.Size(398, 58)
+		Me.Description_Label.Size = New System.Drawing.Size(398, 150)
 		Me.Description_Label.TabIndex = 1
 		Me.Description_Label.Text = "Description for the current step"
 		'

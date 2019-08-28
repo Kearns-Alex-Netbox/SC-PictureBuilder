@@ -1,5 +1,8 @@
 ﻿Public Module Common
 
+	Public APP_NAME				As String = "Aqua Revival Picture Builder"
+	Public LOG_NAME				As String = "Application"
+
     Public APP_DATA_PATH		As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\BlueSkyGlobal\UpdateImages\"
     Public APP_UPDATE_PATH		As String = "update"
     Public JPG_UPDATE_FOLDER	As String = "update\web\images"
@@ -32,6 +35,7 @@
 
     Public JPG_NAMES			As String() = {
 "Splash",
+"V3Valve",
 "V4Valve",
 "V5Valve",
 "V7Valve",
@@ -46,20 +50,22 @@
 
     Public IMAGE_TITLES			As String() = {
 "1. Company Logo",
-"2. V4 Valve Pump Throttling Valve",
-"3. V5 Valve Drain Valve",
-"4. V7 Valve Tank Vent Valve",
-"5. V8 Valve System Vent Valve",
-"6. V9 Valve Vacuum Valve",
-"7. V6 ValveMedia Fill Valve",
-"8. Cleaner",
-"9. V6 Clean",
-"10. V6 Perlite",
-"11. Perlite"
+"2. V3 Valve Manual Revival Valve",
+"3. V4 Valve Pump Throttling Valve",
+"4. V5 Valve Drain Valve",
+"5. V7 Valve Tank Vent Valve",
+"6. V8 Valve System Vent Valve",
+"7. V9 Valve Vacuum Valve",
+"8. V6 ValveMedia Fill Valve",
+"9. Cleaner",
+"10. V6 Clean",
+"11. V6 Perlite",
+"12. Perlite"
     }
 
 	Public IMAGE_WIDTH			As Integer() = {
 		X_MIN_LOGO,
+		X_MIN,
 		X_MIN,
 		X_MIN,
 		X_MIN,
@@ -83,11 +89,13 @@
 		Y_MIN,
 		Y_MIN,
 		Y_MIN,
+		Y_MIN,
 		Y_MIN
 	}
 
     Public IMAGE_DESCRIPTIONS	As String() = {
 "Shows your Compnay's logo during startup. The default background-color's RGB value is (20, 77, 129).",
+"Shows operator using the V3 Manual Revival valve which is used to allow water to flow through the revive loop, bypassing the actual pool loop.",
 "Shows operator using the V4 Pump Throttle valve which is used to slow the water flow through the revive loop.",
 "Shows operator using the V5 Drain valve which is used to drain water from the tank.",
 "Shows operator using the V7 Tank Vent valve which allows air into the system when loading Perlite or cleaner.",
@@ -156,6 +164,40 @@ vbNewLine &
 "A file name can't contain any of the following characters:
 \ / : * ? "" < > |"
 
+	Public SAFE_TO_REMOVE		As String = "The 'USB Mass Storage Device' device can now be safely removed from the computer."
+
+	Public REMOVE_NEW_IMAGE		As String = "'s new image?"
+	Public REMOVE_ALL_IMAGES	As String = "Remove all of your new images?"
+	Public INSERT_USB			As String = "Please insert your USB."
+
+	Public ERROR_IMAGE_LOCATION1 As String = "Unable to find the default image at:"
+
+	Public ERROR_IMAGE_LOCATION2 As String = 
+"Please check that the folder and files are in this location. If not, please uninstal and " &
+"re-install the program. If this issue continues, please contact technical support."
+
+	Public ERROR_BIN_CONVERSION As String = "One or more JPG files were not converted to TGA."
+
+	Public ERROR_IMAGE_TEXT		As String = "Could not create imagelist.txt."
+
+	Public ERROR_DISK_IMAGE		As String = "Could not create disk image."
+
+	Public ERROR_EJECT_USB		As String = "Could not safely eject USB under program control. Please safely eject manually."
+
+	Public STR_SELECT			As String = "Select"
+	Public STR_REMOVE			As String = "Remove"
+	Public STR_YES				As String = "Yes"
+	Public STR_NO				As String = "No"
+	Public STR_OK				As String = "OK"
+	Public STR_CANCEL			As String = "Cancel"
+	Public STR_PROCEED			As String = "Proceed"
+
+	Public LEN_SELECT			As Integer = STR_SELECT.Length
+	Public LEN_REMOVE			As Integer = STR_REMOVE.Length
+
+	Public PICTUREBOX_TOPLEFT_X As Integer = 0
+	Public PICTUREBOX_TOPLEFT_Y As Integer = 0
+
     Public Enum MouseLocations                      ' locations on a rectangle
         NONE                                        ' 0 - Not current on the rectangle
         C                                           ' 1 - Center
@@ -164,6 +206,10 @@ vbNewLine &
         S                                           ' 4 - South
         W                                           ' 5 - West
     End Enum
+
+	Public Enum CustomDialogResults
+		CANCELED = 1
+	End Enum
 
     Public usersJPGpath			As String = "C:"				' current path to the user's image
     Public usersUSBpath			As String = "C:"				' current path to the user's USB
